@@ -641,4 +641,4 @@ If you finish early, try these extensions:
 
 Push your completed project to GitHub and submit the repository URL through Canvas by the due date.
 
-**Due:** End of Week 1 (see Canvas for exact date/time)
+**Due:** Monday of Week 2 (see Canvas for exact date/time)
