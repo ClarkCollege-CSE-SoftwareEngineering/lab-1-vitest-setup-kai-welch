@@ -25,8 +25,8 @@ describe('string utilities', () => {
     });
 
     // TODO: Add your own test case
-    it('handles all caps', () => {
-      expect(slugify('HELLO WORLD')).toBe('hello-world');
+    it('handles empty string', () => {
+      expect(slugify('')).toBe('');
     });
   });
 

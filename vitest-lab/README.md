@@ -70,6 +70,21 @@ mkdir -p src/services
 9. The test file of `filename.ts` should look like `filename.test.ts`
 10. To run the test, say `npm test` or `npm run test:coverage` to see the coverage report
 # 2. Reflection Answers
+### Reflection Question 2.3
+  This test could be written `expect(add(2, 3)).toBe(5);`, instead of: 
+```
+ // Arrange
+  const a = 2;
+  const b = 3;
+
+ // Act
+  const result = add(a, b);
+
+// Assert
+  expect(result).toBe(5);
+```
+However, this pattern is useful especially for complex tests because it breaks the test down into steps and makes it easier to recognize the condition, tested codes and expected result. 
+### Reflection Question 4.3
 
 # 3. Additional Tests
 
