@@ -1,4 +1,5 @@
 Kai Welch
+***
 # 1. Additional Tests
 1. In 'slugify' row 28
 ```TypeScript
@@ -45,9 +46,12 @@ However, this pattern is useful especially for complex tests because it breaks t
 ### Reflection Question on Step 4.3
 > 1. Looking at strings.test.ts and content.test.ts, which file contains unit tests and which contains integration tests? How can you tell the difference?
 
+`strings.test.ts` contains unit tests, and `content.test.ts` contains integration tests. You can tell the difference by looking what each file is testing. `strings.test.ts` tests each functioin one by one. `content.test.ts` tests integrated functions by testing functions in `content.ts` that call multiple  functions that are in `string.ts`.
 > 2. If the slugify function had a bug, which test files would have failing tests? Why does this happen?
 
+Both `string.test.ts` and `content.test.ts` files will have failing tests. This happens because `string.test.ts` tests slugify function as a unit, and `content.test.ts` tests slugify function as a part of integrated functions.
 > 3. What additional confidence do the integration tests give you that unit tests alone wouldn't provide?
 
+Integration tests would give me confidence that each unit will work together correctly while unit tests only give confidence that specific function works correctly. 
 
 # 3. Testing Trophy Connection
