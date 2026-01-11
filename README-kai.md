@@ -1,4 +1,4 @@
-Kai Welch
+***CSE325 / Lab 1 / Jan 10 2026 / Kai Welch***
 ***
 # 1. Additional Tests
 1. In 'slugify' row 28
