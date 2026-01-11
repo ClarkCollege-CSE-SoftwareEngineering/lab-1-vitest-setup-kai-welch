@@ -28,6 +28,7 @@ it('Handles spaces before and after', () => {
 # 2. Reflection Answers
 ### Reflection Question on Step 2.3
 > Look at the add tests. The first test uses explicit Arrange-Act-Assert comments. Why might this pattern be useful, especially for complex tests?
+
 This test could be written `expect(add(2, 3)).toBe(5);`, instead of: 
 ```TypeScript
  // Arrange
@@ -45,6 +46,7 @@ However, this pattern is useful especially for complex tests because it breaks t
 > 1. Looking at strings.test.ts and content.test.ts, which file contains unit tests and which contains integration tests? How can you tell the difference?
 
 > 2. If the slugify function had a bug, which test files would have failing tests? Why does this happen?
+
 > 3. What additional confidence do the integration tests give you that unit tests alone wouldn't provide?
 
 
