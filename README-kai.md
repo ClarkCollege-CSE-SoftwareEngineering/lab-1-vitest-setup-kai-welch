@@ -55,3 +55,4 @@ Both `string.test.ts` and `content.test.ts` files will have failing tests. This 
 Integration tests would give me confidence that each unit will work together correctly while unit tests only give confidence that specific function works correctly. 
 
 # 3. Testing Trophy Connection
+The testing trophy concept suggest 4 types of test. Static, unit, integration and end-to-end, from bottom to top of the trophy. In this lab, syntax check by vi and type check by TypeScript represent static test, `string.test.ts` represent unit test, `content.test.ts` represent integration test, and github actions represent end-to-end test. Each test is build on the confidence of the test below itself.
